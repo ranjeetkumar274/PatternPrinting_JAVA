@@ -7,7 +7,7 @@ public class SquareAlphabet{
         for(int i = 0; i < m; i++){
             System.out.println();
             for(int j = 1; j <= m; j++){
-                System.out.print(j+" ");
+                System.out.print((char)(j+64)+" ");
             }
         }
     }
